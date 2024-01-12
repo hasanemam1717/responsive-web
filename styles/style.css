@@ -35,10 +35,31 @@ header{
 .nav-div ul li a{
     text-decoration: none;
 }
+/* *banner-styles-start* */
+.banner-container-div{}
+.banner-contant{
+    width: 50%;
+    margin: 0px auto;
 
-
-
-
+}
+.banner-titel{    text-align: center;
+    padding: 10px 0px;}
+.banner-description{    text-align: center;
+    padding: 15px 0px;}
+.btn-primary{
+    text-align: center;
+    padding: 1%;
+    border: 1px solid white;
+    background: #ff7007;
+    width: 20%;
+    margin: 2% auto;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.banner-img{}
+.banner-img img{}
 
 
 
