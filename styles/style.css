@@ -101,10 +101,40 @@ header{
     color: #FF900E;
     font-size: 45px;
     font-weight: 700;}
+/* some-facts-styles */
+.facts-container{}
+.some-facts-container{   
+    padding: 50px 240px;
+    width: 25%;}
+.some-facts-container h1{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;}
+.some-facts-container p{
+    color:  #727272;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;}
+.facts-card-container{
+    padding: 20px 240px;
+    display: flex;
+    justify-content: space-around;
 
-
-
-
+}
+.card {    
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 2%;
+    text-align: center;}
+.card img{}
+.card-stats{
+    color: #424242;
+    font-size: 45px;
+    font-weight: 600;}
+.card-title{
+    color: #727272;
+    font-size: 20px;
+    font-weight: 600;}
 
 
 
@@ -223,7 +253,7 @@ header{
             text-align: center;
             text-align: center;}
         }
-
+        
 
 
 
