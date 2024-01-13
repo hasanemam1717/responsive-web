@@ -39,13 +39,21 @@ header{
 .banner-container-div{}
 .banner-contant{
     width: 50%;
-    margin: 0px auto;
+    margin: 50px auto;
 
 }
-.banner-titel{    text-align: center;
-    padding: 10px 0px;}
-.banner-description{    text-align: center;
-    padding: 15px 0px;}
+.banner-titel{    
+    text-align: center;
+    padding: 10px 0px;
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+}
+.banner-description{    
+    text-align: center;
+    padding: 15px 0px;color: #727272;
+    font-size: 16px;
+    font-weight: 400;}
 .btn-primary{
     text-align: center;
     padding: 1%;
@@ -57,9 +65,54 @@ header{
     font-size: 20px;
     font-weight: 600;
     color: white;
+    cursor: pointer;
 }
 .banner-img{}
-.banner-img img{}
+.banner-img img{    width: 100%;}
+
+
+
+@media  screen and (max-width:576px) {
+    header{
+        padding: 20px;
+
+    }
+    .navber-container{
+        flex-direction: column;
+    }
+    .logo-div{}
+    .logo-div h1{
+        text-align: center;
+    }
+    .nav-div{
+        
+    }
+    .nav-div ul{
+        
+    }
+    .nav-div ul li{
+        margin: 5px 10px;
+    }
+    .nav-div ul li a{
+    }
+    /* *banner-styles-start* */
+    .banner-container-div{}
+    .banner-contant{
+        width: 100%;
+        margin: 50px auto;
+    
+    }
+    .banner-titel{        
+        padding: 0px;
+        font-size: 22px;
+    }
+    .banner-description{ }
+    .btn-primary{width: 50%;
+        padding: 0px;
+    }
+    .banner-img{}
+    .banner-img img{    width: 100%;}
+}
 
 
 
