@@ -113,6 +113,48 @@ header{
     .banner-img{}
     .banner-img img{    width: 100%;}
 }
+@media screen and (min-width:576px) and (max-width:960px) {
+    
+    header{
+        padding: 20px;
+
+    }
+    .navber-container{
+        flex-direction: column;
+    }
+    .logo-div{}
+    .logo-div h1{
+        text-align: center;
+    }
+    .nav-div{
+        margin: 20px auto;
+    }
+    .nav-div ul{
+        
+    }
+    .nav-div ul li{
+        margin: 5px 10px;
+    }
+    .nav-div ul li a{
+    }
+    /* *banner-styles-start* */
+    .banner-container-div{}
+    .banner-contant{
+        width: 100%;
+        margin: 50px auto;
+    
+    }
+    .banner-titel{        
+        padding: 0px;
+        font-size: 22px;
+    }
+    .banner-description{ }
+    .btn-primary{width: 50%;
+        padding: 0px;
+    }
+    .banner-img{}
+    .banner-img img{    width: 100%;}
+}
 
 
 
