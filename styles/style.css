@@ -155,9 +155,38 @@ header{
     .banner-img{}
     .banner-img img{    width: 100%;}
 }
+/* team styles */
+.fuetures-container-section{    
+    padding: 50px 300px;
+    display: flex;}
+.fuetures-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+}
+.fuetures-img img{}
 
-
-
+.fuetures-text-contant{
+    width: 40%;
+    margin: auto 30px;
+}
+.fuetures-text-contant p{
+    color:  #727272;
+    font-size: 16px;
+    font-weight: 400;}
+.quick-list{
+    color:#727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;}
+.fearures{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;}
 
 
 
